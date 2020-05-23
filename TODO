@@ -1,2 +1,0 @@
-[ ] **Don't pull what we don't need to**: Use the lockfile to check if the version has changed.
-		(Issues): We still need to pull from Git to read the rotriever.toml, is there a solution to this?
