@@ -6,7 +6,7 @@ async function* walk(dir) {
 	for (const dirent of dirents) {
 		const res = resolve(dir, dirent.name)
 		if (dirent.isDirectory()) {
-			yield* walk(res)
+			if (!dirent.name.startsWith("_")) yield* walk(res)
 		} else {
 			yield res
 		}
