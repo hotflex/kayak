@@ -12,3 +12,5 @@ New to Kayak? Check out [Installation](/installation) or [Why Kayak?](/why-kayak
 
 !!! note
     Kayak is designed for [Rojo](https://rojo.space) users who have general technical knowledge.
+
+> ⚠ This package is still a work in progress. I cannot guarantee its stability and it is not ready for use in production.
