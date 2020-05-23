@@ -1,0 +1,11 @@
+a {
+	border-bottom: 4px solid transparent;
+	background-color: transparent;
+}
+
+a:active,
+a:focus {
+	color: #0b0c0c !important;
+	border-bottom: 4px solid #0b0c0c;
+	background-color: #ffdd00;
+}

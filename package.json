@@ -11,7 +11,7 @@
 	"directories": {
 		"lib": "./lib",
 		"bin": "./bin",
-		"doc": "./doc"
+		"doc": "./docs"
 	},
 	"dependencies": {
 		"@iarna/toml": "^2.2.5",

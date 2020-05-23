@@ -1,0 +1,38 @@
+site_name: Kayak Documentation
+site_url: https://emozley.uk/kayak/
+repo_name: ElliottLMz/kayak
+repo_url: https://github.com/ElliottLMz/kayak
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+
+nav:
+  - Home: index.md
+
+extra_css:
+  - extra.css
+
+plugins:
+  - search
+  - git-revision-date-localized:
+    type: timeago
+  - minify:
+    minify_html: true
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - meta
