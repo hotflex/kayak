@@ -25,10 +25,8 @@ nav:
 
 plugins:
   - search
-  - git-revision-date-localized:
-    type: timeago
-  - minify:
-      minify_html: true
+  - git-revision-date-localized
+  - minify
 
 markdown_extensions:
   - admonition
