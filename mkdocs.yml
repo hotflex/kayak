@@ -15,20 +15,25 @@ extra:
 theme:
   name: material
   icon:
-    logo: material/get_app
+    logo: material/school
   palette:
     primary: blue
     accent: blue
 
 nav:
   - Home: index.md
+  - Why Kayak: why-kayak.md
+  - Guide:
+      - Installation: installation.md
+      - Package Basics: packages.md
+  - Get help with Kayak: help.md
 
 plugins:
   - search
   - git-revision-date-localized
-  - minify
 
 markdown_extensions:
+  - meta
   - admonition
   - codehilite:
       guess_lang: false
