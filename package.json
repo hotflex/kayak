@@ -1,6 +1,6 @@
 {
 	"name": "kayak",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Rotriever-style Roblox package manager",
 	"main": "./lib/kayak.js",
 	"bin": {
