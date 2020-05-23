@@ -22,12 +22,18 @@ theme:
 
 nav:
   - Home: index.md
+  - Why Kayak: why-kayak.md
+  - Guide:
+      - Installation: installation.md
+      - Package Basics: packages.md
+  - Get help with Kayak: help.md
 
 plugins:
   - search
   - git-revision-date-localized
 
 markdown_extensions:
+  - meta
   - admonition
   - codehilite:
       guess_lang: false

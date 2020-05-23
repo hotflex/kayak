@@ -2,3 +2,4 @@ docs/
 .github/
 mkdocs.yml
 requirements.txt
+assets/
