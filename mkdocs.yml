@@ -15,7 +15,7 @@ extra:
 theme:
   name: material
   icon:
-    logo: material/get_app
+    logo: material/school
   palette:
     primary: blue
     accent: blue
@@ -26,7 +26,6 @@ nav:
 plugins:
   - search
   - git-revision-date-localized
-  - minify
 
 markdown_extensions:
   - admonition

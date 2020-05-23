@@ -11,6 +11,9 @@
 
 </div>
 
+This package is still a work in progress. I cannot guarantee its stability and it is not ready for
+use in production.
+
 ## Installation
 
 ### Prerequisites
