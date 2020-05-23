@@ -16,7 +16,12 @@ use in production.
 
 ## Installation
 
-Please refer to [Installation documentation](https://emozley.uk/kayak/installation)
+Please refer to [Installation documentation](https://emozley.uk/kayak/guide/installation)
+
+### Why JS?
+
+Because it was quick and easy to write a project in; I needed to make Kayak quickly just to hold
+until Rotriever is released.
 
 ## Contributions
 
