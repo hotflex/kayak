@@ -1,2 +1,4 @@
-TODO
-doc/
+docs/
+.github/
+mkdocs.yml
+requirements.txt

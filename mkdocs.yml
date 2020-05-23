@@ -3,8 +3,19 @@ site_url: https://emozley.uk/kayak/
 repo_name: ElliottLMz/kayak
 repo_url: https://github.com/ElliottLMz/kayak
 
+copyright: Copyright &copy; 2020 Elliott Mozley
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/elliottlmz
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/elliott_lmz
+
 theme:
   name: material
+  icon:
+    logo: material/get_app
   palette:
     primary: blue
     accent: blue
@@ -12,15 +23,12 @@ theme:
 nav:
   - Home: index.md
 
-extra_css:
-  - extra.css
-
 plugins:
   - search
   - git-revision-date-localized:
     type: timeago
   - minify:
-    minify_html: true
+      minify_html: true
 
 markdown_extensions:
   - admonition
