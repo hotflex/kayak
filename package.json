@@ -1,33 +1,39 @@
 {
 	"name": "kayak",
-	"version": "0.0.1",
-	"description": "Rotriever-style package manager for Roblox",
-	"keywords": [],
-	"homepage": "https://github.com/elliottlmz/kayak#readme",
-	"bugs": "https://github.com/elliottlmz/kayak/issues",
-	"license": "MIT",
-	"author": "Elliott Mozley",
-	"main": "./bin/kayak.js",
-	"directories": {
-		"lib": "./lib",
-		"bin": "./bin",
-		"doc": "./docs"
+	"version": "1.0.0",
+	"description": "A package manager for Roblox developers",
+	"keywords": [
+		"roblox",
+		"package manager",
+		"modules"
+	],
+	"homepage": "https://github.com/ElliottLMz/kayak#readme",
+	"bugs": {
+		"url": "https://github.com/ElliottLMz/kayak/issues"
 	},
-	"dependencies": {
-		"@iarna/toml": "^2.2.5",
-		"chalk": "^4.0.0",
-		"progress": "^2.0.3",
-		"prompt": "^1.0.0",
-		"sanitize-filename": "^1.6.3",
-		"shelljs": "^0.8.4"
+	"license": "MIT",
+	"author": "Elliott Mozley <ElliottLMz@protonmail.com> (https://emozley.uk)",
+	"main": "lib/kayak.js",
+	"types": "lib/index.d.ts",
+	"bin": {
+		"kayak": "bin/kayak"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/elliottlmz/kayak.git"
+		"url": "https://github.com/ElliottLMz/kayak.git"
 	},
-	"scripts": {},
+	"scripts": {
+		"prepare": "tsc"
+	},
 	"engines": {
-		"node": "^12.16.1",
-		"npm": "^6.13.4"
+		"node": "12.16.x"
+	},
+	"os": [
+		"win32"
+	],
+	"publishConfig": {},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"typescript": "^3.9.5"
 	}
 }

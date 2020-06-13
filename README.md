@@ -7,7 +7,7 @@
 	A Roblox package manager based on Rotriever.
 	Designed to be used with <a href="https://rojo.space">Rojo</a>.
 
-⚠ Unstable pre-release! ⚠
+⚠ Unstable rewrite version! ⚠
 
 </div>
 
