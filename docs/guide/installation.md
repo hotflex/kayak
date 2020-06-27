@@ -12,9 +12,6 @@ Check the [package.json](/package.json) (under `engines`) for the ideal version 
 
 ### Method 1: Install package from NPM
 
-> ⚠ Kayak has not yet been published to npm.
-> Do not try to follow these instructions.
-
 `npm i -g kayak`
 
 That simple. Kayak has now been installed, and can be used.
