@@ -10,7 +10,7 @@ kayak.commands = {
 	"-v": VersionCommand,
 };
 
-function f(args: Array<String>) {
+function cli(args: Array<String>) {
 	const commandName: String | undefined = args.shift();
 	if (typeof commandName == "string" && kayak.commands[commandName]) {
 		const command: Function = kayak.commands[commandName];
@@ -23,4 +23,4 @@ function f(args: Array<String>) {
 	}
 }
 
-export { f as kayak };
+export { cli as kayak };
