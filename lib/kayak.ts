@@ -6,7 +6,6 @@ import { log } from "./log";
 import { VersionCommand } from "./version";
 import { DependenciesCommand } from "./dependencies";
 import HelpCommand from "./helpCommand";
-import helpCommand from "./helpCommand";
 
 kayak.commands = {
 	version: VersionCommand,
@@ -21,10 +20,7 @@ function cli(args: Array<String>) {
 		const command: Function = kayak.commands[commandName];
 		command(args);
 	} else {
-		/**
-		 * @todo just run 'help' similar to npm
-		 */
-		log.error(`Command \`${commandName}\` does not exist`);
+		HelpCommand();
 	}
 }
 
