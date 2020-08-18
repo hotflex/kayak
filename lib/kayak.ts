@@ -4,10 +4,15 @@ let kayak: any = {};
 import { log } from "./log";
 
 import { VersionCommand } from "./version";
+import { DependenciesCommand } from "./dependencies";
+import HelpCommand from "./helpCommand";
+import helpCommand from "./helpCommand";
 
 kayak.commands = {
 	version: VersionCommand,
 	"-v": VersionCommand,
+	dependencies: DependenciesCommand,
+	help: HelpCommand,
 };
 
 function cli(args: Array<String>) {

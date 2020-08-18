@@ -3,14 +3,14 @@ import * as path from "path";
 import * as toml from "@iarna/toml";
 import { log } from "../log";
 
-import { IRotriever } from "../iRotriever";
+import { IRotriever } from "../IRotriever";
 
 /**
  * Returns a rotriever.toml file's contents
  * @param {string} dir The directory to check for @default process.cwd()
  * @returns {IRotriever|Boolean} rotriever|false (if error)
  */
-function readPackage(dir: string = process.cwd()): IRotriever | Boolean {
+function readPackage(dir: string = process.cwd()): IRotriever | false {
 	const rotriever = path.join(dir, "rotriever.toml");
 
 	if (fs.existsSync(rotriever)) {

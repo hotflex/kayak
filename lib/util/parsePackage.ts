@@ -1,4 +1,4 @@
-import { IRotriever } from "../iRotriever";
+import { IRotriever } from "../IRotriever";
 
 /**
  * Parses a Rotriever file and 'fills in the gaps'
