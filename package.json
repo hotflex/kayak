@@ -1,17 +1,15 @@
 {
 	"name": "kayak",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Rotriever-style package manager for Roblox",
 	"keywords": [],
 	"homepage": "https://github.com/elliottlmz/kayak#readme",
 	"bugs": "https://github.com/elliottlmz/kayak/issues",
 	"license": "MIT",
 	"author": "Elliott Mozley",
-	"main": "./bin/kayak.js",
-	"directories": {
-		"lib": "./lib",
-		"bin": "./bin",
-		"doc": "./docs"
+	"main": "./lib/kayak.js",
+	"bin": {
+		"kayak": "./bin/kayak.js"
 	},
 	"dependencies": {
 		"@iarna/toml": "^2.2.5",
