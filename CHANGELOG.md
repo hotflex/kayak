@@ -1,8 +1,8 @@
 # Kayak Changelog
 
-## Unreleased Changes
+## [0.1.2](https://github.com/elliottlmz/kayak/releases/tag/v0.1.2) (13 October 2020)
 
-- Prepare for open source release.
+- Allow for pulling poorly formatted rotriever.toml files (#10) (Thanks @unix-system!)
 
 ## [0.0.1](https://github.com/elliottlmz/kayak/releases/tag/v0.0.1) (23 May 2020)
 
