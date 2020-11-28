@@ -12,7 +12,7 @@
 		"url": "https://github.com/ElliottLMz/kayak/issues"
 	},
 	"license": "MIT",
-	"author": "Elliott Mozley <ElliottLMz@protonmail.com> (https://emozley.uk)",
+	"author": "Elliott Mozley <contact@elliottmozley.com> (https://www.elliottmozley.com)",
 	"main": "lib/kayak.js",
 	"types": "lib/index.d.ts",
 	"bin": {
@@ -23,7 +23,8 @@
 		"url": "https://github.com/ElliottLMz/kayak.git"
 	},
 	"scripts": {
-		"prepare": "tsc"
+		"test": "standard",
+		"prepublish": "npm run test"
 	},
 	"engines": {
 		"node": "12.16.x"
@@ -35,7 +36,9 @@
 	"dependencies": {
 		"@iarna/toml": "^2.2.5",
 		"@types/node": "^14.0.13",
-		"chalk": "^4.1.0",
-		"typescript": "^3.9.5"
+		"chalk": "^4.1.0"
+	},
+	"devDependencies": {
+		"standard": "^16.0.3"
 	}
 }

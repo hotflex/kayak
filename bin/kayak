@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-const { kayak } = require("../lib/kayak");
+// This code is intentionally not compliant with StandardJS
+
+const kayak = require("../lib/kayak");
 
 const args = process.argv.slice(2);
 

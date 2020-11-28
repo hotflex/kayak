@@ -1,6 +1,9 @@
 <h1 align="center">Kayak</h1>
 <div align="center">
 	<!-- include some shields -->
+
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 </div>
 
 <div align="center">
@@ -18,10 +21,9 @@ use in production.
 
 Please refer to [Installation documentation](https://emozley.uk/kayak/guide/installation)
 
-### Why TS?
+### Why JS?
 
-Because it was quick and easy to write a project in; I needed to make Kayak quickly just to hold
-until Rotriever is released.
+Because it was quick and easy to write a project in. The code is also portable and understandable.
 
 ## Contributions
 
@@ -32,4 +34,4 @@ Be sure to follow the [code of conduct](/CODE_OF_CONDUCT.md) at all times.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
+This project is licensed under the Apache2 License - see the [LICENSE](/LICENSE) file for details

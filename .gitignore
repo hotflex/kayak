@@ -1,13 +1,5 @@
 .vscode/
 
-# Typescript
-dist/
-lib/*.js
-lib/*.d.ts
-
-lib/*/*.js
-lib/*/*.d.ts
-
 # Logs
 logs
 *.log
