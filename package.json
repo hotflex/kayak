@@ -1,5 +1,5 @@
 {
-	"name": "kayak",
+	"name": "@elliottlmz/kayak-dev",
 	"version": "0.0.2",
 	"description": "A package manager for Roblox developers",
 	"keywords": [
@@ -16,7 +16,7 @@
 	"main": "lib/kayak.js",
 	"types": "lib/index.d.ts",
 	"bin": {
-		"kayak": "bin/kayak"
+		"kayak-dev": "bin/kayak"
 	},
 	"repository": {
 		"type": "git",

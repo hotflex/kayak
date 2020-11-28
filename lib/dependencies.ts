@@ -10,7 +10,7 @@ function DependenciesCommand() {
 	const pack = parsePackage(rotriever);
 
 	if (pack.dependencies) {
-		log.success(`Package "${pack.package.name}"'s dependencies:'`);
+		log.success(`Package "${pack.package.name}"'s dependencies:`);
 		for (let d in pack.dependencies) {
 			const dependency = pack.dependencies[d];
 			if (typeof dependency == "string") {
