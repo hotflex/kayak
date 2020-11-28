@@ -10,7 +10,7 @@ is an accurate repro for a bug.
 
 ## Bug Reports and Feature Requests
 
-Kayak tries to be clear when an issue is a bug. Even if it isn't, sometimes things don't work quite
+We try to be clear when an issue is a bug. Even if it isn't, sometimes things don't work quite
 right.
 
 Sometimes there's something that Kayak doesn't do that it probably should.
@@ -25,7 +25,7 @@ Please file issues and we'll try to help figure out what the best way forward is
    - `git add . && git commit -m "Release vX.Y.Z"
 4. Tag the commit with the version from `package.json` prepended with a v, like `v0.4.13`
 5. Publish the CLI
-   - `npm publish`
+   - `npm publish . --visibility public`
 6. Publish commits and tags
    - `git push && git push --tags`
 7. Copy GitHub release content from previous release
